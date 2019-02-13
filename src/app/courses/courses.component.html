@@ -1,17 +1,23 @@
-<p>
+<!-- <p>
   {{ tittle }}
-</p>
+</p> -->
+<h1>
+  {{ tittle }}
+</h1>
+<h2>
+  {{ tittle2 }}
+</h2>
 <table>
-  <thead>
+  <!-- <thead>
     <th>
       #ID
     </th>
     <th>Course Name</th>
-  </thead>
+  </thead> -->
   <tbody>
-    <tr *ngFor="let Course of Courses">
-      <td>{{ Course.id }}</td>
-      <td>{{ Course.name }}</td>
-    </tr>
+    <ul><tr *ngFor="let Course of Courses">
+      <!-- <td>{{ Course.id }}</td> -->
+      <li>{{ Course.name }}</li>
+    </tr></ul>
   </tbody>
 </table>
