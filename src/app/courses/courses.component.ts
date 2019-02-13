@@ -15,7 +15,12 @@ export class CoursesComponent implements OnInit {
   tittle4 = "Nama: Moh. Khoirul Arifin";
   tittle5 = "Alamat: Jl. Semanggi Barat No. 28";
   tittle6 = "Hobby Saya";
+  date = new Date();
+  get format(){
+    return 'fullDate';
+  }
   Courses;
+  
 
   constructor(private service:CoursesService) { 
     this.Courses=service.getCourses();

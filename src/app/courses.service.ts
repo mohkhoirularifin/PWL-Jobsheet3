@@ -23,7 +23,7 @@ export class CoursesService {
     //Tugas2
     {id: 0, name: 'berlari', ket: 'lari 1 jam tiap hari'},
     {id: 1, name: 'senam', ket: 'senam tiap sore'},
-    {id: 2, name: 'bermain musik', ket: 'bermain musil saat waktu senggang'},
+    {id: 2, name: 'bermain musik', ket: 'bermain musik saat waktu senggang'},
     ];
   }
 }
