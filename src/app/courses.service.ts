@@ -21,9 +21,9 @@ export class CoursesService {
     // {id: 4, name: 'VB.NET'},
 
     //Tugas2
-    {id: 0, name: 'berlari', ket: 'lari 1 jam tiap hari'},
-    {id: 1, name: 'senam', ket: 'senam tiap sore'},
-    {id: 2, name: 'bermain musik', ket: 'bermain musik saat waktu senggang'},
+    {id: 0, name: 'Badminton', ket: '2 Minggu Sekali'},
+    {id: 1, name: 'Membaca', ket: 'Cerpen Sosmed'},
+    {id: 2, name: 'Sepak Bola', ket: 'Posisi Penjaga Gawang'},
     ];
   }
 }
