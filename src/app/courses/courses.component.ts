@@ -9,8 +9,12 @@ import { CoursesService } from '../courses.service';
 export class CoursesComponent implements OnInit {
 
   // tittle = 'Belajar Angular';
-  tittle = 'Angular';
-  tittle2 = '3 Author';
+  // tittle = 'Angular';
+  // tittle2 = '3 Author';
+  tittle3 = "INI Tugas Pertama Biodata";
+  tittle4 = "Nama: Moh. Khoirul Arifin";
+  tittle5 = "Alamat: Jl. Semanggi Barat No. 28";
+  tittle6 = "Hobby Saya";
   Courses;
 
   constructor(private service:CoursesService) { 

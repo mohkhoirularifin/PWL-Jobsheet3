@@ -1,23 +1,50 @@
+<h1>
+  <div style=text-align:center>{{ tittle3 }}</div>
+</h1>
+
 <!-- <p>
   {{ tittle }}
 </p> -->
-<h1>
+<!-- <h1>
   {{ tittle }}
 </h1>
 <h2>
   {{ tittle2 }}
+</h2> -->
+<h2>
+  {{ tittle4 }}
 </h2>
-<table>
+<h2>
+  {{ tittle5 }}
+</h2>
+<h2>
+  {{ tittle6 }}
+</h2>
+<table  border="5">
+  <thead>
+    <th><h2>NO</h2></th>
+    <th><h2>Hobby</h2></th>
+    <th><h2>Keterangan</h2></th>
+  </thead>
   <!-- <thead>
     <th>
       #ID
     </th>
     <th>Course Name</th>
   </thead> -->
-  <tbody>
-    <ul><tr *ngFor="let Course of Courses">
+  
+  
+  <!-- <tbody>
+    <ul><tr *ngFor="let Course of Courses"> -->
       <!-- <td>{{ Course.id }}</td> -->
-      <li>{{ Course.name }}</li>
+      <!-- <li>{{ Course.name }}</li>
     </tr></ul>
-  </tbody>
+  </tbody> -->
+  <tbody>
+      <tr *ngFor="let Course of Courses">
+        <td><h2>{{ Course.id }}</h2></td>
+        <td><h2>{{ Course.name }}</h2></td>
+        <td><h2>{{ Course.ket }}</h2></td>
+      </tr>
+    </tbody>
 </table>
